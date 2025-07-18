@@ -3,40 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|c:\\users\\user\\desktop\\proyectofinalalexis\\praticafinal\\praticafinal\\migrations\\20250716015958_creartablasiniciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|solutionrelative:praticafinal\\migrations\\20250716015958_creartablasiniciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|c:\\users\\user\\desktop\\proyectofinalalexis\\praticafinal\\praticafinal\\controllers\\citaviewmodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|solutionrelative:praticafinal\\controllers\\citaviewmodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|c:\\users\\user\\desktop\\proyectofinalalexis\\praticafinal\\praticafinal\\controllers\\terapeutaviewmodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|solutionrelative:praticafinal\\controllers\\terapeutaviewmodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|c:\\users\\user\\desktop\\proyectofinalalexis\\praticafinal\\praticafinal\\controllers\\servicioviewmodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|solutionrelative:praticafinal\\controllers\\servicioviewmodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|c:\\users\\user\\desktop\\proyectofinalalexis\\praticafinal\\praticafinal\\controllers\\pacienteviewmodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|solutionrelative:praticafinal\\controllers\\pacienteviewmodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|c:\\users\\user\\desktop\\proyectofinalalexis\\praticafinal\\praticafinal\\models\\servicioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|solutionrelative:praticafinal\\models\\servicioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|c:\\users\\user\\desktop\\proyectofinalalexis\\praticafinal\\praticafinal\\models\\praticafinalcontextfactory.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|solutionrelative:praticafinal\\models\\praticafinalcontextfactory.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|c:\\users\\user\\desktop\\proyectofinalalexis\\praticafinal\\praticafinal\\models\\praticafinaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|solutionrelative:praticafinal\\models\\praticafinaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|c:\\users\\user\\desktop\\proyectofinalalexis\\praticafinal\\praticafinal\\models\\pascienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|solutionrelative:praticafinal\\models\\pascienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|c:\\users\\user\\desktop\\proyectofinalalexis\\praticafinal\\praticafinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|solutionrelative:praticafinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|c:\\users\\user\\desktop\\proyectofinalalexis\\praticafinal\\praticafinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|solutionrelative:praticafinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|c:\\users\\user\\desktop\\proyectofinalalexis\\praticafinal\\praticafinal\\models\\citaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|solutionrelative:praticafinal\\models\\citaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|c:\\users\\user\\desktop\\proyectofinalalexis\\praticafinal\\praticafinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|solutionrelative:praticafinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|c:\\users\\user\\desktop\\proyectofinalalexis\\praticafinal\\praticafinal\\models\\praticafinaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|solutionrelative:praticafinal\\models\\praticafinaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|c:\\users\\user\\desktop\\proyectofinalalexis\\praticafinal\\praticafinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|solutionrelative:praticafinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|c:\\users\\user\\desktop\\proyectofinalalexis\\praticafinal\\praticafinal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|solutionrelative:praticafinal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|c:\\users\\user\\desktop\\proyectofinalalexis\\praticafinal\\praticafinal\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|solutionrelative:praticafinal\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|c:\\users\\user\\desktop\\proyectofinalalexis\\praticafinal\\praticafinal\\models\\servicioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|solutionrelative:praticafinal\\models\\servicioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|c:\\users\\user\\desktop\\proyectofinalalexis\\praticafinal\\praticafinal\\migrations\\20250716015958_creartablasiniciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB56D637-DD84-4D27-9DF3-EFE1F6B6D7E9}|PraticaFinal\\PraticaFinal.csproj|solutionrelative:praticafinal\\migrations\\20250716015958_creartablasiniciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Migrations\\20250716013446_CrearTablasIniciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -89,25 +109,103 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TerapeutaViewModelsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Controllers\\TerapeutaViewModelsController.cs",
+              "RelativeDocumentMoniker": "PraticaFinal\\Controllers\\TerapeutaViewModelsController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Controllers\\TerapeutaViewModelsController.cs",
+              "RelativeToolTip": "PraticaFinal\\Controllers\\TerapeutaViewModelsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T01:45:58.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServicioViewModelsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Controllers\\ServicioViewModelsController.cs",
+              "RelativeDocumentMoniker": "PraticaFinal\\Controllers\\ServicioViewModelsController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Controllers\\ServicioViewModelsController.cs",
+              "RelativeToolTip": "PraticaFinal\\Controllers\\ServicioViewModelsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T01:43:09.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CitaViewModelsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Controllers\\CitaViewModelsController.cs",
+              "RelativeDocumentMoniker": "PraticaFinal\\Controllers\\CitaViewModelsController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Controllers\\CitaViewModelsController.cs",
+              "RelativeToolTip": "PraticaFinal\\Controllers\\CitaViewModelsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T02:43:49.131Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250716015958_CrearTablasIniciales.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Migrations\\20250716015958_CrearTablasIniciales.cs",
-              "RelativeDocumentMoniker": "PraticaFinal\\Migrations\\20250716015958_CrearTablasIniciales.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Migrations\\20250716015958_CrearTablasIniciales.cs",
-              "RelativeToolTip": "PraticaFinal\\Migrations\\20250716015958_CrearTablasIniciales.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "PacienteViewModelsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Controllers\\PacienteViewModelsController.cs",
+              "RelativeDocumentMoniker": "PraticaFinal\\Controllers\\PacienteViewModelsController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Controllers\\PacienteViewModelsController.cs",
+              "RelativeToolTip": "PraticaFinal\\Controllers\\PacienteViewModelsController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAkwBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T01:59:59.26Z",
+              "WhenOpened": "2025-07-18T01:41:02.369Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\appsettings.json",
+              "RelativeDocumentMoniker": "PraticaFinal\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\appsettings.json",
+              "RelativeToolTip": "PraticaFinal\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-12T20:14:32.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CitaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Models\\CitaViewModel.cs",
+              "RelativeDocumentMoniker": "PraticaFinal\\Models\\CitaViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Models\\CitaViewModel.cs",
+              "RelativeToolTip": "PraticaFinal\\Models\\CitaViewModel.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T19:36:09.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PascienteViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Models\\PascienteViewModel.cs",
+              "RelativeDocumentMoniker": "PraticaFinal\\Models\\PascienteViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Models\\PascienteViewModel.cs",
+              "RelativeToolTip": "PraticaFinal\\Models\\PascienteViewModel.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T19:24:47.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PraticaFinalContextFactory.cs.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Models\\PraticaFinalContextFactory.cs.cs",
               "RelativeDocumentMoniker": "PraticaFinal\\Models\\PraticaFinalContextFactory.cs.cs",
@@ -121,71 +219,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\appsettings.json",
-              "RelativeDocumentMoniker": "PraticaFinal\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\appsettings.json",
-              "RelativeToolTip": "PraticaFinal\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-12T20:14:32.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PraticaFinalDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Models\\PraticaFinalDbContext.cs",
-              "RelativeDocumentMoniker": "PraticaFinal\\Models\\PraticaFinalDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Models\\PraticaFinalDbContext.cs",
-              "RelativeToolTip": "PraticaFinal\\Models\\PraticaFinalDbContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Title": "ServicioViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Models\\ServicioViewModel.cs",
+              "RelativeDocumentMoniker": "PraticaFinal\\Models\\ServicioViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Models\\ServicioViewModel.cs",
+              "RelativeToolTip": "PraticaFinal\\Models\\ServicioViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T20:06:35.402Z",
+              "WhenOpened": "2025-07-12T19:34:27.036Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Program.cs",
               "RelativeDocumentMoniker": "PraticaFinal\\Program.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Program.cs",
               "RelativeToolTip": "PraticaFinal\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-12T20:27:50.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CitaViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Models\\CitaViewModel.cs",
-              "RelativeDocumentMoniker": "PraticaFinal\\Models\\CitaViewModel.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Models\\CitaViewModel.cs",
-              "RelativeToolTip": "PraticaFinal\\Models\\CitaViewModel.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAA7wEEAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "PraticaFinalDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Models\\PraticaFinalDbContext.cs",
+              "RelativeDocumentMoniker": "PraticaFinal\\Models\\PraticaFinalDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Models\\PraticaFinalDbContext.cs",
+              "RelativeToolTip": "PraticaFinal\\Models\\PraticaFinalDbContext.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T19:36:09.695Z",
+              "WhenOpened": "2025-07-12T20:06:35.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PascienteViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Models\\PascienteViewModel.cs",
-              "RelativeDocumentMoniker": "PraticaFinal\\Models\\PascienteViewModel.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Models\\PascienteViewModel.cs",
-              "RelativeToolTip": "PraticaFinal\\Models\\PascienteViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T19:24:47.241Z",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PraticaFinal\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PraticaFinal\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwBkAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T23:44:12.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
+              "Title": "20250716015958_CrearTablasIniciales.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Migrations\\20250716015958_CrearTablasIniciales.cs",
+              "RelativeDocumentMoniker": "PraticaFinal\\Migrations\\20250716015958_CrearTablasIniciales.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Migrations\\20250716015958_CrearTablasIniciales.cs",
+              "RelativeToolTip": "PraticaFinal\\Migrations\\20250716015958_CrearTablasIniciales.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T01:59:59.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\appsettings.Development.json",
               "RelativeDocumentMoniker": "PraticaFinal\\appsettings.Development.json",
@@ -198,46 +300,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ServicioViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Models\\ServicioViewModel.cs",
-              "RelativeDocumentMoniker": "PraticaFinal\\Models\\ServicioViewModel.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Models\\ServicioViewModel.cs",
-              "RelativeToolTip": "PraticaFinal\\Models\\ServicioViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T19:34:27.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "20250716013446_CrearTablasIniciales.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Migrations\\20250716013446_CrearTablasIniciales.cs",
               "RelativeDocumentMoniker": "PraticaFinal\\Migrations\\20250716013446_CrearTablasIniciales.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Migrations\\20250716013446_CrearTablasIniciales.cs",
               "RelativeToolTip": "PraticaFinal\\Migrations\\20250716013446_CrearTablasIniciales.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T01:34:47.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T01:34:47.127Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "20250716010634_CrearTablas.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Migrations\\20250716010634_CrearTablas.cs",
               "RelativeDocumentMoniker": "PraticaFinal\\Migrations\\20250716010634_CrearTablas.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Migrations\\20250716010634_CrearTablas.cs",
               "RelativeToolTip": "PraticaFinal\\Migrations\\20250716010634_CrearTablas.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T01:06:34.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T01:06:34.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "TerapeutaViewModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Models\\TerapeutaViewModel.cs",
               "RelativeDocumentMoniker": "PraticaFinal\\Models\\TerapeutaViewModel.cs",
@@ -249,25 +334,19 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "20250715235252_CrearTablasIniciales.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Migrations\\20250715235252_CrearTablasIniciales.cs",
               "RelativeDocumentMoniker": "PraticaFinal\\Migrations\\20250715235252_CrearTablasIniciales.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\Migrations\\20250715235252_CrearTablasIniciales.cs",
               "RelativeToolTip": "PraticaFinal\\Migrations\\20250715235252_CrearTablasIniciales.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T23:52:53.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T23:52:53.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "PraticaFinal.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProyectoFinalAlexis\\PraticaFinal\\PraticaFinal\\PraticaFinal.csproj",
               "RelativeDocumentMoniker": "PraticaFinal\\PraticaFinal.csproj",
@@ -275,7 +354,8 @@
               "RelativeToolTip": "PraticaFinal\\PraticaFinal.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-12T19:48:09.24Z"
+              "WhenOpened": "2025-07-12T19:48:09.24Z",
+              "EditorCaption": ""
             }
           ]
         }

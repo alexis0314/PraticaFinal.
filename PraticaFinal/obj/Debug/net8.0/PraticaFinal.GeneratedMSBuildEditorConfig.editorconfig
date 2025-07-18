@@ -26,6 +26,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\ProyectoFinalAlexis\PraticaFinal\PraticaFinal
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/CitaViewModels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YVZpZXdNb2RlbHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/CitaViewModels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YVZpZXdNb2RlbHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/CitaViewModels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YVZpZXdNb2RlbHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/CitaViewModels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YVZpZXdNb2RlbHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/CitaViewModels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YVZpZXdNb2RlbHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,12 +54,72 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/PacienteViewModels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVWaWV3TW9kZWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/PacienteViewModels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVWaWV3TW9kZWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/PacienteViewModels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVWaWV3TW9kZWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/PacienteViewModels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVWaWV3TW9kZWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/PacienteViewModels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVWaWV3TW9kZWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/ServicioViewModels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljaW9WaWV3TW9kZWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/ServicioViewModels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljaW9WaWV3TW9kZWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/ServicioViewModels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljaW9WaWV3TW9kZWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/ServicioViewModels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljaW9WaWV3TW9kZWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/ServicioViewModels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljaW9WaWV3TW9kZWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/TerapeutaViewModels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVyYXBldXRhVmlld01vZGVsc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/TerapeutaViewModels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVyYXBldXRhVmlld01vZGVsc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/TerapeutaViewModels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVyYXBldXRhVmlld01vZGVsc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/TerapeutaViewModels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVyYXBldXRhVmlld01vZGVsc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/TerapeutaViewModels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVyYXBldXRhVmlld01vZGVsc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/_ViewImports.cshtml]

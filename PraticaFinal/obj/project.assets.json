@@ -1839,28 +1839,11 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration/9.0.0": {
+      "Microsoft.VisualStudio.Web.CodeGeneration/8.0.7": {
         "type": "package",
         "dependencies": {
-          "Humanizer": "2.14.1",
-          "Microsoft.AspNetCore.Razor.Language": "6.0.24",
-          "Microsoft.Build": "17.10.4",
-          "Microsoft.CodeAnalysis.CSharp": "4.8.0",
-          "Microsoft.CodeAnalysis.CSharp.Features": "4.8.0",
-          "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.8.0",
-          "Microsoft.CodeAnalysis.Common": "4.8.0",
-          "Microsoft.CodeAnalysis.Features": "4.8.0",
-          "Microsoft.CodeAnalysis.Razor": "6.0.24",
-          "Microsoft.CodeAnalysis.Workspaces.Common": "4.8.0",
-          "Microsoft.Extensions.DependencyInjection": "9.0.0-rc.2.24473.5",
-          "Microsoft.Extensions.DependencyModel": "9.0.0-rc.2.24473.5",
-          "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "9.0.0",
-          "Mono.TextTemplating": "3.0.0",
-          "Newtonsoft.Json": "13.0.3",
-          "NuGet.Packaging": "6.11.0",
-          "NuGet.ProjectModel": "6.11.0",
-          "System.Formats.Asn1": "9.0.0-rc.2.24473.5",
-          "System.Security.Cryptography.ProtectedData": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection": "8.0.1",
+          "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "8.0.7"
         },
         "compile": {
           "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.dll": {
@@ -1907,29 +1890,11 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design/9.0.0": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design/8.0.7": {
         "type": "package",
         "dependencies": {
-          "Humanizer": "2.14.1",
-          "Microsoft.AspNetCore.Razor.Language": "6.0.24",
-          "Microsoft.Build": "17.10.4",
-          "Microsoft.CodeAnalysis.CSharp": "4.8.0",
-          "Microsoft.CodeAnalysis.CSharp.Features": "4.8.0",
-          "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.8.0",
-          "Microsoft.CodeAnalysis.Common": "4.8.0",
-          "Microsoft.CodeAnalysis.Features": "4.8.0",
-          "Microsoft.CodeAnalysis.Razor": "6.0.24",
-          "Microsoft.CodeAnalysis.Workspaces.Common": "4.8.0",
-          "Microsoft.DotNet.Scaffolding.Shared": "9.0.0",
-          "Microsoft.Extensions.DependencyInjection": "9.0.0-rc.2.24473.5",
-          "Microsoft.Extensions.DependencyModel": "9.0.0-rc.2.24473.5",
-          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "9.0.0",
-          "Mono.TextTemplating": "3.0.0",
-          "Newtonsoft.Json": "13.0.3",
-          "NuGet.Packaging": "6.11.0",
-          "NuGet.ProjectModel": "6.11.0",
-          "System.Formats.Asn1": "9.0.0-rc.2.24473.5",
-          "System.Security.Cryptography.ProtectedData": "8.0.0"
+          "Microsoft.DotNet.Scaffolding.Shared": "8.0.7",
+          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "8.0.7"
         },
         "compile": {
           "lib/net8.0/dotnet-aspnet-codegenerator-design.dll": {
@@ -2041,29 +2006,11 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/9.0.0": {
+      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/8.0.7": {
         "type": "package",
         "dependencies": {
-          "Humanizer": "2.14.1",
-          "Microsoft.AspNetCore.Razor.Language": "6.0.24",
-          "Microsoft.Build": "17.10.4",
-          "Microsoft.CodeAnalysis.CSharp": "4.8.0",
-          "Microsoft.CodeAnalysis.CSharp.Features": "4.8.0",
-          "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.8.0",
-          "Microsoft.CodeAnalysis.Common": "4.8.0",
-          "Microsoft.CodeAnalysis.Features": "4.8.0",
-          "Microsoft.CodeAnalysis.Razor": "6.0.24",
-          "Microsoft.CodeAnalysis.Workspaces.Common": "4.8.0",
-          "Microsoft.DotNet.Scaffolding.Shared": "9.0.0",
-          "Microsoft.Extensions.DependencyInjection": "9.0.0-rc.2.24473.5",
-          "Microsoft.Extensions.DependencyModel": "9.0.0-rc.2.24473.5",
-          "Microsoft.VisualStudio.Web.CodeGeneration": "9.0.0",
-          "Mono.TextTemplating": "3.0.0",
-          "Newtonsoft.Json": "13.0.3",
-          "NuGet.Packaging": "6.11.0",
-          "NuGet.ProjectModel": "6.11.0",
-          "System.Formats.Asn1": "9.0.0-rc.2.24473.5",
-          "System.Security.Cryptography.ProtectedData": "8.0.0"
+          "Microsoft.DotNet.Scaffolding.Shared": "8.0.7",
+          "Microsoft.VisualStudio.Web.CodeGeneration": "8.0.7"
         },
         "compile": {
           "lib/net8.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll": {
@@ -5750,10 +5697,10 @@
         "microsoft.sqlserver.server.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration/9.0.0": {
-      "sha512": "W9ho78o/92MUDz04r7Al4dMx7djaqtSJE1cR7fMjy+Mm0StL5pVKXF24qnAFWJlip7KEpAa1QP35davXvuis9w==",
+    "Microsoft.VisualStudio.Web.CodeGeneration/8.0.7": {
+      "sha512": "8WqtBA1DxiiEq1c2PjgkeFYHPC0WwC5Yl7FuDg41RQ6rvi661mSHCApzz3/rp/cfb8I7DiG1+3d01q5ck+BT1w==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration/9.0.0",
+      "path": "microsoft.visualstudio.web.codegeneration/8.0.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5762,7 +5709,7 @@
         "README.md",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.dll",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.xml",
-        "microsoft.visualstudio.web.codegeneration.9.0.0.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.8.0.7.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.nuspec"
       ]
     },
@@ -5782,10 +5729,10 @@
         "microsoft.visualstudio.web.codegeneration.core.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Design/9.0.0": {
-      "sha512": "nO5MUL3iC0WjtAVea5d4v6kVcoL9ae/PnkC6NeEJhWazHKdKj7xfv6D2QvBx8uCIj8FUu9QpvvdN6m/xMp//EQ==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.Design/8.0.7": {
+      "sha512": "qURp+VCwreGNQBofL6z3uUnLmrG3PCap/jN/B8jGqsiMLjhR+FOO7r9R1vcNeXYd5cFORpQvsuZi6GWXxr2dCA==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.design/9.0.0",
+      "path": "microsoft.visualstudio.web.codegeneration.design/8.0.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5794,7 +5741,7 @@
         "README.md",
         "lib/net8.0/dotnet-aspnet-codegenerator-design.dll",
         "lib/net8.0/dotnet-aspnet-codegenerator-design.xml",
-        "microsoft.visualstudio.web.codegeneration.design.9.0.0.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.design.8.0.7.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.design.nuspec"
       ]
     },
@@ -5848,10 +5795,10 @@
         "microsoft.visualstudio.web.codegeneration.utils.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/9.0.0": {
-      "sha512": "WJhdsFXkpA0XR6PCjoxe9pRIqT8NV8Ggojv2cwaeCwxApzTAbLnglwADteeF7WlgHnr1VmJ+xdgzzNAAcJ9+Rg==",
+    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/8.0.7": {
+      "sha512": "IN7xeBHZ/WtYN62Ez0rEWqpsiTlpEUbGcjvXLRF2gNO8SdhFn9IhzdixKXTLzHTf89oS9Y5mFIPkWcU4Y99USA==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegenerators.mvc/9.0.0",
+      "path": "microsoft.visualstudio.web.codegenerators.mvc/8.0.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6005,8 +5952,6 @@
         "Templates/Identity/SupportPages._ViewImports.cshtml",
         "Templates/Identity/SupportPages._ViewStart.cshtml",
         "Templates/Identity/_LoginPartial.cshtml",
-        "Templates/Identity/package-lock.json",
-        "Templates/Identity/package.json",
         "Templates/Identity/wwwroot/css/site.css",
         "Templates/Identity/wwwroot/favicon.ico",
         "Templates/Identity/wwwroot/js/site.js",
@@ -6056,8 +6001,8 @@
         "Templates/Identity/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
         "Templates/Identity/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
         "Templates/Identity/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
-        "Templates/Identity/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
-        "Templates/Identity/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
+        "Templates/Identity/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+        "Templates/Identity/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
         "Templates/Identity/wwwroot/lib/jquery-validation/LICENSE.md",
         "Templates/Identity/wwwroot/lib/jquery-validation/dist/additional-methods.js",
         "Templates/Identity/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
@@ -6067,9 +6012,6 @@
         "Templates/Identity/wwwroot/lib/jquery/dist/jquery.js",
         "Templates/Identity/wwwroot/lib/jquery/dist/jquery.min.js",
         "Templates/Identity/wwwroot/lib/jquery/dist/jquery.min.map",
-        "Templates/Identity/wwwroot/lib/jquery/dist/jquery.slim.js",
-        "Templates/Identity/wwwroot/lib/jquery/dist/jquery.slim.min.js",
-        "Templates/Identity/wwwroot/lib/jquery/dist/jquery.slim.min.map",
         "Templates/Identity_Versioned/Bootstrap4/Data/ApplicationDbContext.cshtml",
         "Templates/Identity_Versioned/Bootstrap4/Data/ApplicationUser.cshtml",
         "Templates/Identity_Versioned/Bootstrap4/IdentityHostingStartup.cshtml",
@@ -6151,8 +6093,6 @@
         "Templates/Identity_Versioned/Bootstrap4/SupportPages._ViewImports.cshtml",
         "Templates/Identity_Versioned/Bootstrap4/SupportPages._ViewStart.cshtml",
         "Templates/Identity_Versioned/Bootstrap4/_LoginPartial.cshtml",
-        "Templates/Identity_Versioned/Bootstrap4/package-lock.json",
-        "Templates/Identity_Versioned/Bootstrap4/package.json",
         "Templates/Identity_Versioned/Bootstrap4/wwwroot/css/site.css",
         "Templates/Identity_Versioned/Bootstrap4/wwwroot/favicon.ico",
         "Templates/Identity_Versioned/Bootstrap4/wwwroot/js/site.js",
@@ -6178,8 +6118,8 @@
         "Templates/Identity_Versioned/Bootstrap4/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
         "Templates/Identity_Versioned/Bootstrap4/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
         "Templates/Identity_Versioned/Bootstrap4/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
-        "Templates/Identity_Versioned/Bootstrap4/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
-        "Templates/Identity_Versioned/Bootstrap4/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
+        "Templates/Identity_Versioned/Bootstrap4/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+        "Templates/Identity_Versioned/Bootstrap4/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
         "Templates/Identity_Versioned/Bootstrap4/wwwroot/lib/jquery-validation/LICENSE.md",
         "Templates/Identity_Versioned/Bootstrap4/wwwroot/lib/jquery-validation/dist/additional-methods.js",
         "Templates/Identity_Versioned/Bootstrap4/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
@@ -6189,9 +6129,6 @@
         "Templates/Identity_Versioned/Bootstrap4/wwwroot/lib/jquery/dist/jquery.js",
         "Templates/Identity_Versioned/Bootstrap4/wwwroot/lib/jquery/dist/jquery.min.js",
         "Templates/Identity_Versioned/Bootstrap4/wwwroot/lib/jquery/dist/jquery.min.map",
-        "Templates/Identity_Versioned/Bootstrap4/wwwroot/lib/jquery/dist/jquery.slim.js",
-        "Templates/Identity_Versioned/Bootstrap4/wwwroot/lib/jquery/dist/jquery.slim.min.js",
-        "Templates/Identity_Versioned/Bootstrap4/wwwroot/lib/jquery/dist/jquery.slim.min.map",
         "Templates/MinimalApi/MinimalApi.cshtml",
         "Templates/MinimalApi/MinimalApiEf.cshtml",
         "Templates/MinimalApi/MinimalApiEfNoClass.cshtml",
@@ -6244,7 +6181,7 @@
         "lib/net8.0/bootstrap5_identitygeneratorfilesconfig.json",
         "lib/net8.0/identityMinimalHostingChanges.json",
         "lib/net8.0/minimalApiChanges.json",
-        "microsoft.visualstudio.web.codegenerators.mvc.9.0.0.nupkg.sha512",
+        "microsoft.visualstudio.web.codegenerators.mvc.8.0.7.nupkg.sha512",
         "microsoft.visualstudio.web.codegenerators.mvc.nuspec"
       ]
     },
@@ -7681,7 +7618,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 9.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.7",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 9.0.0",
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7",
       "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore >= 9.0.0"
     ]
   },
@@ -7751,7 +7688,7 @@
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
-            "version": "[9.0.0, )"
+            "version": "[8.0.7, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": {
             "target": "Package",
