@@ -1,50 +1,41 @@
 ﻿@model PraticaFinal.Models.CitaViewModel
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Crear Cita";
 }
 
-<h1>Create</h1>
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
 
-<h4>CitaViewModel</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="PacienteID" class="control-label"></label>
-                <select asp-for="PacienteID" class ="form-control" asp-items="ViewBag.PacienteID"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="ServicioID" class="control-label"></label>
-                <select asp-for="ServicioID" class ="form-control" asp-items="ViewBag.ServicioID"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="TerapeutaID" class="control-label"></label>
-                <select asp-for="TerapeutaID" class ="form-control" asp-items="ViewBag.TerapeutaID"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="Fecha" class="control-label"></label>
-                <input asp-for="Fecha" class="form-control" />
-                <span asp-validation-for="Fecha" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Hora" class="control-label"></label>
-                <input asp-for="Hora" class="form-control" />
-                <span asp-validation-for="Hora" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
+    <form asp-action="Create" class="mt-4">
+        <div class="mb-3">
+            <label asp-for="Fecha" class="form-label"></label>
+            <input asp-for="Fecha" class="form-control" />
+            <span asp-validation-for="Fecha" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Hora" class="form-label"></label>
+            <input asp-for="Hora" class="form-control" />
+            <span asp-validation-for="Hora" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="PacienteID" class="form-label"></label>
+            <select asp-for="PacienteID" asp-items="ViewBag.Pacientes" class="form-select"></select>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="ServicioID" class="form-label"></label>
+            <select asp-for="ServicioID" asp-items="ViewBag.Servicios" class="form-select"></select>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="TerapeutaID" class="form-label"></label>
+            <select asp-for="TerapeutaID" asp-items="ViewBag.Terapeutas" class="form-select"></select>
+        </div>
+
+        <button type="submit" class="btn btn-success">Guardar</button>
+        <a asp-action="Index" class="btn btn-secondary ms-2">Volver</a>
+    </form>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}

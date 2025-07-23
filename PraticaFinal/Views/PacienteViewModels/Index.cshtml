@@ -1,47 +1,37 @@
 ﻿@model IEnumerable<PraticaFinal.Models.PacienteViewModel>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Listado de Pacientes";
 }
 
-<h1>Index</h1>
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">Lista de Pacientes</h2>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nombre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Telefono)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nombre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Telefono)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.PacienteID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.PacienteID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.PacienteID">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <div class="mb-3 text-end">
+        <a asp-action="Create" class="btn btn-success">Crear Nuevo Paciente</a>
+    </div>
+
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark text-center">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+                <th>@Html.DisplayNameFor(model => model.Email)</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Nombre</td>
+                    <td>@item.Email</td>
+                    <td class="text-center">
+                        <a asp-action="Edit" asp-route-id="@item.PacienteID" class="btn btn-sm btn-warning">Editar</a>
+                        <a asp-action="Details" asp-route-id="@item.PacienteID" class="btn btn-sm btn-info text-white">Detalles</a>
+                        <a asp-action="Delete" asp-route-id="@item.PacienteID" class="btn btn-sm btn-danger">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

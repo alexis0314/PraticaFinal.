@@ -1,41 +1,36 @@
 ﻿@model IEnumerable<PraticaFinal.Models.ServicioViewModel>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Servicios";
 }
 
-<h1>Index</h1>
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">Servicios</h2>
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <a asp-action="Create" class="btn btn-success">Agregar Nuevo Servicio</a>
+    </div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nombre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DuracionMin)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nombre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DuracionMin)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ServicioID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ServicioID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ServicioID">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+                <th>@Html.DisplayNameFor(model => model.DuracionMin)</th>
+                <th>Accione</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+                    <td>@Html.DisplayFor(modelItem => item.DuracionMin) minutos</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.ServicioID" class="btn btn-warning btn-sm">Editar</a>
+                        <a asp-action="Details" asp-route-id="@item.ServicioID" class="btn btn-info btn-sm">Detalles</a>
+                        <a asp-action="Delete" asp-route-id="@item.ServicioID" class="btn btn-danger btn-sm">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
