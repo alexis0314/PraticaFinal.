@@ -25,23 +25,21 @@ namespace PraticaFinal.Models
         public DateTime Fecha { get; set; }
 
         [Required(ErrorMessage = "La hora es obligatoria")]
-        public TimeSpan Hora { get; set; }
+        [Range(8, 18, ErrorMessage = "La hora debe estar entre 8 y 18")]
+        public int Hora { get; set; }
 
-        // Cálculo desde Servicio
+        // Relaciones
+        public virtual PacienteViewModel Paciente { get; set; }
+        public virtual ServicioViewModel Servicio { get; set; }
+        public virtual TerapeutaViewModel Terapeuta { get; set; }
+
+        // Cálculos no mapeados a la base de datos
         [NotMapped]
-        public int Duracion
-        {
-            get => Servicio != null ? Servicio.DuracionMin : 0;
-        }
+        public int Duracion => Servicio != null ? Servicio.DuracionMin : 0;
 
-        // Cálculo de días restantes
         [NotMapped]
-        public int DiasRestantes
-        {
-            get => (Fecha.Date - DateTime.Now.Date).Days;
-        }
+        public int DiasRestantes => (Fecha.Date - DateTime.Now.Date).Days;
 
-        // Estado de la cita
         [NotMapped]
         public string Estado
         {
@@ -56,10 +54,5 @@ namespace PraticaFinal.Models
                     return "Finalizado";
             }
         }
-
-        // Relaciones
-        public virtual PacienteViewModel Paciente { get; set; }
-        public virtual ServicioViewModel Servicio { get; set; }
-        public virtual TerapeutaViewModel Terapeuta { get; set; }
     }
 }

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PraticaFinal.Models;
 
@@ -11,9 +12,11 @@ using PraticaFinal.Models;
 namespace PraticaFinal.Migrations
 {
     [DbContext(typeof(PraticaFinalContext))]
-    partial class PraticaFinalContextModelSnapshot : ModelSnapshot
+    [Migration("20250729011356_CrearTablaCitasDesdeCero")]
+    partial class CrearTablaCitasDesdeCero
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

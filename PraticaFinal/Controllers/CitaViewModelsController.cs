@@ -22,7 +22,7 @@ namespace PraticaFinal.Controllers
         public async Task<IActionResult> Index()
         {
             var praticaFinalContext = _context.Citas.Include(c => c.Paciente).Include(c => c.Servicio).Include(c => c.Terapeuta);
-            return View(await _context.Citas.ToListAsync());
+            return View(await praticaFinalContext.ToListAsync());
         }
 
         // GET: CitaViewModels/Details/5
@@ -49,9 +49,11 @@ namespace PraticaFinal.Controllers
         // GET: CitaViewModels/Create
         public IActionResult Create()
         {
-            ViewData["PacienteID"] = new SelectList(_context.Pacientes, "PacienteID", "Email");
+            ViewData["PacienteID"] = new SelectList(_context.Pacientes, "PacienteID", "Nombre");
             ViewData["ServicioID"] = new SelectList(_context.Servicios, "ServicioID", "Nombre");
-            ViewData["TerapeutaID"] = new SelectList(_context.Terapeutas, "TerapeutaID", "Especialidad");
+            ViewData["TerapeutaID"] = new SelectList(_context.Terapeutas, "TerapeutaID", "Nombre");
+            ViewBag.Horas = new SelectList(Enumerable.Range(8, 11));
+
             return View();
         }
 
@@ -68,9 +70,11 @@ namespace PraticaFinal.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PacienteID"] = new SelectList(_context.Pacientes, "PacienteID", "Email", citaViewModel.PacienteID);
+            ViewData["PacienteID"] = new SelectList(_context.Pacientes, "PacienteID", "Nombre", citaViewModel.PacienteID);
             ViewData["ServicioID"] = new SelectList(_context.Servicios, "ServicioID", "Nombre", citaViewModel.ServicioID);
-            ViewData["TerapeutaID"] = new SelectList(_context.Terapeutas, "TerapeutaID", "Especialidad", citaViewModel.TerapeutaID);
+            ViewData["TerapeutaID"] = new SelectList(_context.Terapeutas, "TerapeutaID", "Nombre", citaViewModel.TerapeutaID);
+           ViewBag.Horas = new SelectList(Enumerable.Range(8, 11));
+
             return View(citaViewModel);
         }
 
@@ -87,9 +91,9 @@ namespace PraticaFinal.Controllers
             {
                 return NotFound();
             }
-            ViewData["PacienteID"] = new SelectList(_context.Pacientes, "PacienteID", "Email", citaViewModel.PacienteID);
+            ViewData["PacienteID"] = new SelectList(_context.Pacientes, "PacienteID", "Nombre", citaViewModel.PacienteID);
             ViewData["ServicioID"] = new SelectList(_context.Servicios, "ServicioID", "Nombre", citaViewModel.ServicioID);
-            ViewData["TerapeutaID"] = new SelectList(_context.Terapeutas, "TerapeutaID", "Especialidad", citaViewModel.TerapeutaID);
+            ViewData["TerapeutaID"] = new SelectList(_context.Terapeutas, "TerapeutaID", "Nombre", citaViewModel.TerapeutaID);
             return View(citaViewModel);
         }
 
