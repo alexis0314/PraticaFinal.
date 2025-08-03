@@ -12,8 +12,8 @@ using PraticaFinal.Models;
 namespace PraticaFinal.Migrations
 {
     [DbContext(typeof(PraticaFinalContext))]
-    [Migration("20250729011356_CrearTablaCitasDesdeCero")]
-    partial class CrearTablaCitasDesdeCero
+    [Migration("20250729235254_CrearTablaCitas")]
+    partial class CrearTablaCitas
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

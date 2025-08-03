@@ -26,24 +26,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\ProyectoFinalAlexis\PraticaFinal\PraticaFinal
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/CitaViewModels/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YVZpZXdNb2RlbHNcQ3JlYXRlLmNzaHRtbA==
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/Citas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/CitaViewModels/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YVZpZXdNb2RlbHNcRGVsZXRlLmNzaHRtbA==
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/Citas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/CitaViewModels/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YVZpZXdNb2RlbHNcRGV0YWlscy5jc2h0bWw=
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/Citas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/CitaViewModels/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YVZpZXdNb2RlbHNcRWRpdC5jc2h0bWw=
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/Citas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/CitaViewModels/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YVZpZXdNb2RlbHNcSW5kZXguY3NodG1s
+[C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/Citas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Desktop/ProyectoFinalAlexis/PraticaFinal/PraticaFinal/Views/Home/Index.cshtml]

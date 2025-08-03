@@ -1,0 +1,62 @@
+﻿@model PraticaFinal.Models.Cita
+
+@{
+    ViewData["Title"] = "Editar Cita";
+}
+
+<div class="container mt-5">
+    <div class="card shadow rounded-4">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Editar Cita</h4>
+        </div>
+
+        <div class="card-body">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                <input type="hidden" asp-for="CitaID" />
+
+                <div class="mb-3">
+                    <label asp-for="PacienteID" class="form-label"></label>
+                    <select asp-for="PacienteID" class="form-select" asp-items="ViewBag.PacienteID"></select>
+                    <span asp-validation-for="PacienteID" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="ServicioID" class="form-label"></label>
+                    <select asp-for="ServicioID" class="form-select" asp-items="ViewBag.ServicioID"></select>
+                    <span asp-validation-for="ServicioID" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="TerapeutaID" class="form-label"></label>
+                    <select asp-for="TerapeutaID" class="form-select" asp-items="ViewBag.TerapeutaID"></select>
+                    <span asp-validation-for="TerapeutaID" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Fecha" class="form-label"></label>
+                    <input asp-for="Fecha" class="form-control" type="date" />
+                    <span asp-validation-for="Fecha" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Hora" class="form-label"></label>
+                    <input asp-for="Hora" class="form-control" />
+                    <span asp-validation-for="Hora" class="text-danger"></span>
+                </div>
+
+                <div class="text-end">
+                    <button type="submit" class="btn btn-success px-4">Guardar</button>
+                    <a asp-action="Index" class="btn btn-secondary ms-2">Cancelar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+}

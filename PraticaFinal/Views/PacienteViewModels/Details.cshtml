@@ -1,36 +1,43 @@
 ﻿@model PraticaFinal.Models.PacienteViewModel
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalles del Paciente";
 }
 
-<h1>Details</h1>
+<div class="container mt-5">
+    <div class="card shadow rounded-4">
+        <div class="card-header bg-info text-white">
+            <h4 class="mb-0">Detalles del Paciente</h4>
+        </div>
 
-<div>
-    <h4>PacienteViewModel</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nombre)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nombre)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Telefono)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Telefono)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Email)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.PacienteID">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+        <div class="card-body">
+            <dl class="row mb-4">
+                <dt class="col-sm-3 fw-bold text-secondary">
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Nombre)
+                </dd>
+
+                <dt class="col-sm-3 fw-bold text-secondary">
+                    @Html.DisplayNameFor(model => model.Telefono)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Telefono)
+                </dd>
+
+                <dt class="col-sm-3 fw-bold text-secondary">
+                    @Html.DisplayNameFor(model => model.Email)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Email)
+                </dd>
+            </dl>
+
+            <div class="text-end">
+                <a asp-action="Edit" asp-route-id="@Model?.PacienteID" class="btn btn-warning px-4">Editar</a>
+                <a asp-action="Index" class="btn btn-secondary ms-2">Volver</a>
+            </div>
+        </div>
+    </div>
 </div>

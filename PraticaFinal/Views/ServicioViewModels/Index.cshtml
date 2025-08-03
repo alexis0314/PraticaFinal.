@@ -1,36 +1,40 @@
 ﻿@model IEnumerable<PraticaFinal.Models.ServicioViewModel>
 
 @{
-    ViewData["Title"] = "Servicios";
+    ViewData["Title"] = "Listado de Servicios";
 }
 
 <div class="container mt-5">
-    <h2 class="mb-4 text-center">Servicios</h2>
-    <div class="d-flex justify-content-between align-items-center mb-3">
-        <a asp-action="Create" class="btn btn-success">Agregar Nuevo Servicio</a>
-    </div>
+    <div class="card shadow rounded-4">
+        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+            <h4 class="mb-0">Listado de Servicios</h4>
+            <a asp-action="Create" class="btn btn-success">+ Nuevo Servicio</a>
+        </div>
 
-    <table class="table table-striped table-bordered">
-        <thead class="table-dark">
-            <tr>
-                <th>@Html.DisplayNameFor(model => model.Nombre)</th>
-                <th>@Html.DisplayNameFor(model => model.DuracionMin)</th>
-                <th>Accione</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
-                    <td>@Html.DisplayFor(modelItem => item.DuracionMin) minutos</td>
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@item.ServicioID" class="btn btn-warning btn-sm">Editar</a>
-                        <a asp-action="Details" asp-route-id="@item.ServicioID" class="btn btn-info btn-sm">Detalles</a>
-                        <a asp-action="Delete" asp-route-id="@item.ServicioID" class="btn btn-danger btn-sm">Eliminar</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
+        <div class="card-body">
+            <table class="table table-hover align-middle">
+                <thead class="table-light text-center">
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+                        <th>@Html.DisplayNameFor(model => model.DuracionMin)</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Nombre</td>
+                            <td>@item.DuracionMin minutos</td>
+                            <td class="text-center">
+                                <a asp-action="Edit" asp-route-id="@item.ServicioID" class="btn btn-sm btn-warning me-1">Editar</a>
+                                <a asp-action="Details" asp-route-id="@item.ServicioID" class="btn btn-sm btn-info me-1 text-white">Detalles</a>
+                                <a asp-action="Delete" asp-route-id="@item.ServicioID" class="btn btn-sm btn-danger">Eliminar</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>

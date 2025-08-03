@@ -1,0 +1,58 @@
+﻿@model PraticaFinal.Models.Cita
+
+@{
+    ViewData["Title"] = "Eliminar Cita";
+}
+
+<div class="container mt-5">
+    <div class="card shadow rounded-4 border-danger">
+        <div class="card-header bg-danger text-white">
+            <h4 class="mb-0">¿Estás seguro que deseas eliminar esta cita?</h4>
+        </div>
+
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3 fw-bold text-danger">
+                    @Html.DisplayNameFor(model => model.Fecha)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Fecha)
+                </dd>
+
+                <dt class="col-sm-3 fw-bold text-danger">
+                    @Html.DisplayNameFor(model => model.Hora)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Hora)
+                </dd>
+
+                <dt class="col-sm-3 fw-bold text-danger">
+                    @Html.DisplayNameFor(model => model.Paciente)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Paciente.Nombre)
+                </dd>
+
+                <dt class="col-sm-3 fw-bold text-danger">
+                    @Html.DisplayNameFor(model => model.Servicio)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Servicio.Nombre)
+                </dd>
+
+                <dt class="col-sm-3 fw-bold text-danger">
+                    @Html.DisplayNameFor(model => model.Terapeuta)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Terapeuta.Especialidad)
+                </dd>
+            </dl>
+
+            <form asp-action="Delete" class="mt-4 text-end">
+                <input type="hidden" asp-for="CitaID" />
+                <button type="submit" class="btn btn-danger px-4">Eliminar</button>
+                <a asp-action="Index" class="btn btn-secondary ms-2">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>

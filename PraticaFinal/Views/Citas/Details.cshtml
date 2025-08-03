@@ -1,0 +1,57 @@
+﻿@model PraticaFinal.Models.Cita
+
+@{
+    ViewData["Title"] = "Detalles de la Cita";
+}
+
+<div class="container mt-5">
+    <div class="card shadow rounded-4">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Detalles de la Cita</h4>
+        </div>
+
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3 fw-bold text-primary">
+                    @Html.DisplayNameFor(model => model.Fecha)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Fecha)
+                </dd>
+
+                <dt class="col-sm-3 fw-bold text-primary">
+                    @Html.DisplayNameFor(model => model.Hora)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Hora)
+                </dd>
+
+                <dt class="col-sm-3 fw-bold text-primary">
+                    @Html.DisplayNameFor(model => model.Paciente)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Paciente.Nombre)
+                </dd>
+
+                <dt class="col-sm-3 fw-bold text-primary">
+                    @Html.DisplayNameFor(model => model.Servicio)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Servicio.Nombre)
+                </dd>
+
+                <dt class="col-sm-3 fw-bold text-primary">
+                    @Html.DisplayNameFor(model => model.Terapeuta)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Terapeuta.Especialidad)
+                </dd>
+            </dl>
+
+            <div class="text-end mt-4">
+                <a asp-action="Edit" asp-route-id="@Model?.CitaID" class="btn btn-success px-4">Editar</a>
+                <a asp-action="Index" class="btn btn-secondary ms-2">Volver</a>
+            </div>
+        </div>
+    </div>
+</div>

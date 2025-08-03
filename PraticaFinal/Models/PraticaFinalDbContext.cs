@@ -12,7 +12,8 @@ namespace PraticaFinal.Models
         public DbSet<PacienteViewModel> Pacientes { get; set; }
         public DbSet<ServicioViewModel> Servicios { get; set; }
         public DbSet<TerapeutaViewModel> Terapeutas { get; set; }
-        public DbSet<CitaViewModel> Citas { get; set; }
+        public DbSet<Cita> Citas { get; set; }
+
     }
 
 }

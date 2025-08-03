@@ -1,0 +1,46 @@
+﻿@model IEnumerable<PraticaFinal.Models.Cita>
+
+@{
+    ViewData["Title"] = "Listado de Citas";
+}
+
+<div class="container mt-5">
+    <div class="card shadow rounded-4">
+        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+            <h4 class="mb-0">Listado de Citas</h4>
+            <a asp-action="Create" class="btn btn-success">Crear Nueva</a>
+        </div>
+
+        <div class="card-body">
+            <table class="table table-striped table-hover">
+                <thead class="table-primary">
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.First().Fecha)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().Hora)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().Paciente)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().Servicio)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().Terapeuta)</th>
+                        <th class="text-center">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.Fecha)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Hora)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Paciente.Nombre)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Servicio.Nombre)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Terapeuta.Especialidad)</td>
+                            <td class="text-center">
+                                <a asp-action="Edit" asp-route-id="@item.CitaID" class="btn btn-sm btn-warning me-1">Editar</a>
+                                <a asp-action="Details" asp-route-id="@item.CitaID" class="btn btn-sm btn-info me-1 text-white">Detalles</a>
+                                <a asp-action="Delete" asp-route-id="@item.CitaID" class="btn btn-sm btn-danger">Eliminar</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

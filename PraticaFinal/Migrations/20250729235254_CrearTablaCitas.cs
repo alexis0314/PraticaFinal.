@@ -5,7 +5,7 @@
 namespace PraticaFinal.Migrations
 {
     /// <inheritdoc />
-    public partial class CrearTablaCitasDesdeCero : Migration
+    public partial class CrearTablaCitas : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

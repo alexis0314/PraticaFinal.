@@ -5,33 +5,36 @@
 }
 
 <div class="container mt-5">
-    <h2 class="mb-4 text-center">Lista de Pacientes</h2>
+    <div class="card shadow rounded-4">
+        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+            <h4 class="mb-0">Listado de Pacientes</h4>
+            <a asp-action="Create" class="btn btn-success">+ Nuevo Paciente</a>
+        </div>
 
-    <div class="mb-3 text-end">
-        <a asp-action="Create" class="btn btn-success">Crear Nuevo Paciente</a>
+        <div class="card-body">
+            <table class="table table-hover align-middle">
+                <thead class="table-light text-center">
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+                        <th>@Html.DisplayNameFor(model => model.Email)</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Nombre</td>
+                            <td>@item.Email</td>
+                            <td class="text-center">
+                                <a asp-action="Edit" asp-route-id="@item.PacienteID" class="btn btn-sm btn-warning me-1">Editar</a>
+                                <a asp-action="Details" asp-route-id="@item.PacienteID" class="btn btn-sm btn-info me-1 text-white">Detalles</a>
+                                <a asp-action="Delete" asp-route-id="@item.PacienteID" class="btn btn-sm btn-danger">Eliminar</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
     </div>
-
-    <table class="table table-bordered table-striped">
-        <thead class="table-dark text-center">
-            <tr>
-                <th>@Html.DisplayNameFor(model => model.Nombre)</th>
-                <th>@Html.DisplayNameFor(model => model.Email)</th>
-                <th>Acciones</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>@item.Nombre</td>
-                    <td>@item.Email</td>
-                    <td class="text-center">
-                        <a asp-action="Edit" asp-route-id="@item.PacienteID" class="btn btn-sm btn-warning">Editar</a>
-                        <a asp-action="Details" asp-route-id="@item.PacienteID" class="btn btn-sm btn-info text-white">Detalles</a>
-                        <a asp-action="Delete" asp-route-id="@item.PacienteID" class="btn btn-sm btn-danger">Eliminar</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
 </div>
