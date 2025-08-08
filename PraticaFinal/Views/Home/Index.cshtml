@@ -1,8 +1,41 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Bienvenidos</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    body {
+     
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        color: white;
+    }
+
+    .welcome-box {
+        background-color: rgba(0, 123, 255, 0.6);
+        padding: 40px;
+        border-radius: 15px;
+        text-align: center;
+        margin-top: 100px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    }
+
+    .btn-custom {
+        margin: 10px;
+    }
+</style>
+
+<div class="container d-flex justify-content-center">
+    <div class="welcome-box">
+        <h1 class="display-4">Bienvenidos al Sistema de Citas para Spa</h1>
+        <p class="lead">Gestione citas, pacientes, servicios y terapeutas de forma eficiente.</p>
+        
+        <div class="mt-4">
+            <a class="btn btn-outline-light btn-lg btn-custom" asp-controller="Citas" asp-action="Index">Listado de Citas</a>
+            <a class="btn btn-outline-light btn-lg btn-custom" asp-controller="PacienteViewModels" asp-action="Index">Pacientes</a>
+            <a class="btn btn-outline-light btn-lg btn-custom" asp-controller="ServicioViewModels" asp-action="Index">Servicios</a>
+            <a class="btn btn-outline-light btn-lg btn-custom" asp-controller="TerapeutaViewModels" asp-action="Index">Terapeutas</a>
+        </div>
+    </div>
 </div>
