@@ -13,6 +13,6 @@ namespace PraticaFinal.Models
 
         [Required(ErrorMessage = "La duración es obligatoria")]
         [Range(1, 300, ErrorMessage = "Duración debe estar entre 1 y 300 minutos")]
-        public int DuracionMin { get; set; } // Se usará para calcular en Cita
+        public int DuracionMin { get; set; } 
     }
 }

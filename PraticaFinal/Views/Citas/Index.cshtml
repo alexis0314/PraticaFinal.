@@ -36,6 +36,8 @@
                                 <a asp-action="Edit" asp-route-id="@item.CitaID" class="btn btn-sm btn-warning me-1">Editar</a>
                                 <a asp-action="Details" asp-route-id="@item.CitaID" class="btn btn-sm btn-info me-1 text-white">Detalles</a>
                                 <a asp-action="Delete" asp-route-id="@item.CitaID" class="btn btn-sm btn-danger">Eliminar</a>
+                                <a class="btn btn-primary" asp-action="ExportarCSV">Exportar a CSV</a>
+
                             </td>
                         </tr>
                     }

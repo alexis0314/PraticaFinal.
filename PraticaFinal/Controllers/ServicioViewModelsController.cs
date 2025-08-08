@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -152,5 +153,21 @@ namespace PraticaFinal.Controllers
         {
             return _context.Servicios.Any(e => e.ServicioID == id);
         }
+        public IActionResult ExportToCSV()
+        {
+            var servicios = _context.Servicios.ToList();
+
+            var sb = new StringBuilder();
+
+            sb.AppendLine("ServicioID,Nombre,Descripción");
+
+            foreach (var servicio in servicios)
+            {
+                sb.AppendLine($"{servicio.ServicioID},{servicio.Nombre},{servicio.DuracionMin}");
+            }
+
+            return File(Encoding.UTF8.GetBytes(sb.ToString()), "text/csv", "Servicios.csv");
+        }
+
     }
 }

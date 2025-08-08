@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -152,5 +153,21 @@ namespace PraticaFinal.Controllers
         {
             return _context.Terapeutas.Any(e => e.TerapeutaID == id);
         }
+        public IActionResult ExportToCSV()
+        {
+            var terapeutas = _context.Terapeutas.ToList();
+
+            var sb = new StringBuilder();
+
+            sb.AppendLine("TerapeutaID,Nombre,Especialidad,Teléfono");
+
+            foreach (var terapeuta in terapeutas)
+            {
+                sb.AppendLine($"{terapeuta.TerapeutaID},{terapeuta.Nombre},{terapeuta.Especialidad}");
+            }
+
+            return File(Encoding.UTF8.GetBytes(sb.ToString()), "text/csv", "Terapeutas.csv");
+        }
+
     }
 }

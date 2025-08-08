@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -171,5 +172,22 @@ namespace PraticaFinal.Controllers
         {
             return _context.Citas.Any(e => e.CitaID == id);
         }
+        public IActionResult ExportarCSV()
+        {
+            var citas = _context.Citas.ToList(); // Ajusta si tu DbSet tiene otro nombre
+
+            var sb = new StringBuilder();
+            sb.AppendLine("CitaID,PacienteID,ServicioID,TerapeutaID,Fecha,Hora");
+
+            foreach (var cita in citas)
+            {
+                sb.AppendLine($"{cita.CitaID},{cita.PacienteID},{cita.ServicioID},{cita.TerapeutaID},{cita.Fecha:yyyy-MM-dd},{cita.Hora}");
+            }
+
+            return File(Encoding.UTF8.GetBytes(sb.ToString()), "text/csv", "Citas.csv");
+        }
+
+
     }
+
 }

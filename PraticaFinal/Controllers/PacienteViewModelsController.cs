@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -151,6 +152,21 @@ namespace PraticaFinal.Controllers
         private bool PacienteViewModelExists(int id)
         {
             return _context.Pacientes.Any(e => e.PacienteID == id);
+        }
+        public IActionResult ExportToCSV()
+        {
+            var pacientes = _context.Pacientes.ToList();
+
+            var sb = new StringBuilder();
+
+            sb.AppendLine("ID,Nombre,Apellido,Teléfono,Email");
+
+            foreach (var paciente in pacientes)
+            {
+                sb.AppendLine($"{paciente.PacienteID},{paciente.Nombre},{paciente.Telefono},{paciente.Email}");
+            }
+
+            return File(Encoding.UTF8.GetBytes(sb.ToString()), "text/csv", "Pacientes.csv");
         }
     }
 }
